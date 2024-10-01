@@ -1,0 +1,18 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{ university.name }}</mat-card-title>
+    <mat-card-subtitle>{{ university.country }} ({{ university.alpha_two_code }})</mat-card-subtitle>
+  </mat-card-header>
+  <img *ngIf="logoUrl" mat-card-image [src]="logoUrl" alt="{{ university.name }} logo" />
+  <mat-card-content>
+    <p><strong>Domain:</strong> {{ university.domains[0] }}</p>
+    <p><strong>Website:</strong> <a [href]="university.web_pages[0]" target="_blank">{{ university.web_pages[0] }}</a></p>
+
+  </mat-card-content>
+
+  <mat-card-actions>
+    <a mat-button [href]="university.web_pages[0]" target="_blank">
+      {{ 'action.read_more' | translate }}
+    </a>
+  </mat-card-actions>
+</mat-card>
