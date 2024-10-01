@@ -1,0 +1,10 @@
+{
+  "footer": {
+    "intro":"Copyright © 2024 EduGlobal Tech LLC, All rights reserved",
+    "author": "Developed by {{ author }} "
+  },
+  "action": {
+    "read_more": "Read more"
+  }
+
+}
