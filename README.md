@@ -1,27 +1,19 @@
-# Upcpre202402si729pc1sw56u202213358
+README.md <br>
+UniversityFinder
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+Description<br>
+This Angular web application was developed as a showcase for EduTech Global Solutions, LLC's new UniversityFinder RESTful API. It allows users to search for universities containing the word "science" in their name and displays the results in informative cards. Each card provides details about the university, including its logo, name, country, domain, and a link to its website.
 
-## Development server
+Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+University Search: Searches the UniversityFinder API for universities related to "science".
+Result Presentation: Displays search results in informative cards with university details.
+Internationalization: Supports English and Spanish for the user interface and button text.
+Accessibility: Uses ARIA attributes to enhance accessibility.
+Technologies Used
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Frontend: Angular
+UI Framework: Angular Material <br>
+Programming Language: TypeScript<br>
+HTTP Client: Angular HttpClient<br>
+Design: Layered architecture, domain-driven design
